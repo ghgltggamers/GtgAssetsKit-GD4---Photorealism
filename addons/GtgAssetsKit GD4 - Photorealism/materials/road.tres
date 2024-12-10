@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="uid://cj4b2py2cvjs1"]
+
+[ext_resource type="Texture2D" uid="uid://bq0htndk6e7x7" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Road007_1K-PNG/Road007_1K-PNG_Color.png" id="1_gkfrf"]
+[ext_resource type="Texture2D" uid="uid://btdfhvv6yv5s" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Road007_1K-PNG/Road007_1K-PNG_Displacement.png" id="2_n3d6d"]
+[ext_resource type="Texture2D" uid="uid://bcpx8ahoawjnv" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Road007_1K-PNG/Road007_1K-PNG_NormalGL.png" id="3_lfj23"]
+[ext_resource type="Texture2D" uid="uid://cp6v02xhb5jh5" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Road007_1K-PNG/Road007_1K-PNG_Roughness.png" id="4_o2dup"]
+
+[resource]
+albedo_texture = ExtResource("1_gkfrf")
+roughness_texture = ExtResource("4_o2dup")
+normal_enabled = true
+normal_scale = 5.0
+normal_texture = ExtResource("3_lfj23")
+heightmap_enabled = true
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_texture = ExtResource("2_n3d6d")

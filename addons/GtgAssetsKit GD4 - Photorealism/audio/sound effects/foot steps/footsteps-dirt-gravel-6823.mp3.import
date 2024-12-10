@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c3ru1dt04amol"
+path="res://.godot/imported/footsteps-dirt-gravel-6823.mp3-cc8f4e9d33da15e99e9f992ea48ca50a.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/foot steps/footsteps-dirt-gravel-6823.mp3"
+dest_files=["res://.godot/imported/footsteps-dirt-gravel-6823.mp3-cc8f4e9d33da15e99e9f992ea48ca50a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

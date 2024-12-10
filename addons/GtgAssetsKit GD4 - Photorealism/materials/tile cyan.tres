@@ -1,0 +1,21 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="uid://kfar6cqcqehr"]
+
+[ext_resource type="Texture2D" uid="uid://bo2hqa48ye0yl" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Tiles132A_1K-PNG/Tiles132A_1K-PNG_Color.png" id="1_mecc2"]
+[ext_resource type="Texture2D" uid="uid://cuqp10t0cmuob" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Tiles132A_1K-PNG/Tiles132A_1K-PNG_AmbientOcclusion.png" id="2_lrcu8"]
+[ext_resource type="Texture2D" uid="uid://c2f2lld76kuju" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Tiles132A_1K-PNG/Tiles132A_1K-PNG_Displacement.png" id="3_ct7ul"]
+[ext_resource type="Texture2D" uid="uid://c20a6nayxgt24" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Tiles132A_1K-PNG/Tiles132A_1K-PNG_NormalGL.png" id="4_4jl3s"]
+[ext_resource type="Texture2D" uid="uid://582ws25fscmv" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Tiles132A_1K-PNG/Tiles132A_1K-PNG_Roughness.png" id="5_pcpvx"]
+
+[resource]
+albedo_texture = ExtResource("1_mecc2")
+roughness_texture = ExtResource("5_pcpvx")
+normal_enabled = true
+normal_scale = 5.0
+normal_texture = ExtResource("4_4jl3s")
+ao_enabled = true
+ao_texture = ExtResource("2_lrcu8")
+heightmap_enabled = true
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_texture = ExtResource("3_ct7ul")

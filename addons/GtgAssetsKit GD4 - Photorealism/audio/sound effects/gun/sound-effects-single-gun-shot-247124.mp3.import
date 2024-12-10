@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b3k8ye3yj6kdw"
+path="res://.godot/imported/sound-effects-single-gun-shot-247124.mp3-64c549ae28d49077648f37188fbe1dd9.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/gun/sound-effects-single-gun-shot-247124.mp3"
+dest_files=["res://.godot/imported/sound-effects-single-gun-shot-247124.mp3-64c549ae28d49077648f37188fbe1dd9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

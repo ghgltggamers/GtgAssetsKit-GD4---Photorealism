@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c80kt7malejrs"
+path="res://.godot/imported/running-stream-water-sound-239612.mp3-5a30d11fec55dd8425374c5c056292ae.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/water/running-stream-water-sound-239612.mp3"
+dest_files=["res://.godot/imported/running-stream-water-sound-239612.mp3-5a30d11fec55dd8425374c5c056292ae.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

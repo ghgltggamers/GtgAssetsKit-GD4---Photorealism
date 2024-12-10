@@ -1,0 +1,21 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="uid://cuaxdgl7kh4dp"]
+
+[ext_resource type="Texture2D" uid="uid://00yt1gbtexq4" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Metal042A_1K-PNG/Metal042A_1K-PNG_Color.png" id="1_l1xw3"]
+[ext_resource type="Texture2D" uid="uid://doyfx7c307sj8" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Metal042A_1K-PNG/Metal042A_1K-PNG_Displacement.png" id="2_8vlsp"]
+[ext_resource type="Texture2D" uid="uid://t8ehw7isnvol" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Metal042A_1K-PNG/Metal042A_1K-PNG_Metalness.png" id="3_gyigh"]
+[ext_resource type="Texture2D" uid="uid://c3hn35h3h61uf" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Metal042A_1K-PNG/Metal042A_1K-PNG_NormalGL.png" id="4_g6sja"]
+[ext_resource type="Texture2D" uid="uid://bfv8skbifncld" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Metal042A_1K-PNG/Metal042A_1K-PNG_Roughness.png" id="5_1hegb"]
+
+[resource]
+albedo_texture = ExtResource("1_l1xw3")
+metallic = 1.0
+metallic_texture = ExtResource("3_gyigh")
+roughness_texture = ExtResource("5_1hegb")
+normal_enabled = true
+normal_scale = 5.0
+normal_texture = ExtResource("4_g6sja")
+heightmap_enabled = true
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_texture = ExtResource("2_8vlsp")

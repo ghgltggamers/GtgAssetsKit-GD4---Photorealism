@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://drder84uqr17f"
+path="res://.godot/imported/burning-air-6882.mp3-03a49f450f65165dda5a39480a7dca38.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/air/burning-air-6882.mp3"
+dest_files=["res://.godot/imported/burning-air-6882.mp3-03a49f450f65165dda5a39480a7dca38.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

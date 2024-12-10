@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cql602luts6ni"
+path="res://.godot/imported/filling-water-to-cup-247457.mp3-062aaf43e07dfa2051ebb3efdbeeb179.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/water/filling-water-to-cup-247457.mp3"
+dest_files=["res://.godot/imported/filling-water-to-cup-247457.mp3-062aaf43e07dfa2051ebb3efdbeeb179.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

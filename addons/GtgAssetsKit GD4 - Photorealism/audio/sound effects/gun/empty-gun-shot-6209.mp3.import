@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cuijvrebj70av"
+path="res://.godot/imported/empty-gun-shot-6209.mp3-58be11afb74d1c13b7cdd4de1f8f694c.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/gun/empty-gun-shot-6209.mp3"
+dest_files=["res://.godot/imported/empty-gun-shot-6209.mp3-58be11afb74d1c13b7cdd4de1f8f694c.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

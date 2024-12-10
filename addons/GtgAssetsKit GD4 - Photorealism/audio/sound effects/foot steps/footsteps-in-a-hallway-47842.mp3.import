@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://do170c7y7ok80"
+path="res://.godot/imported/footsteps-in-a-hallway-47842.mp3-a38ebd1cb505dd8babe2811dca5a54c5.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/foot steps/footsteps-in-a-hallway-47842.mp3"
+dest_files=["res://.godot/imported/footsteps-in-a-hallway-47842.mp3-a38ebd1cb505dd8babe2811dca5a54c5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

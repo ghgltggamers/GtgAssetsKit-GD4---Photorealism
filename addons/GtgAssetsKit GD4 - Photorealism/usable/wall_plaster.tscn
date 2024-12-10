@@ -1,0 +1,27 @@
+[gd_scene load_steps=6 format=3 uid="uid://bl4tn6ppysip1"]
+
+[ext_resource type="Texture2D" uid="uid://ducmusbutpthl" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Plaster001_1K-PNG/Plaster001_1K-PNG_Color.png" id="1_0tt0p"]
+[ext_resource type="Texture2D" uid="uid://bkih33ogon4ir" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Plaster001_1K-PNG/Plaster001_1K-PNG_Displacement.png" id="2_e1vda"]
+[ext_resource type="Texture2D" uid="uid://r81ydye57j3t" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Plaster001_1K-PNG/Plaster001_1K-PNG_NormalGL.png" id="3_33xdh"]
+[ext_resource type="Texture2D" uid="uid://dq7iye88182ri" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Plaster001_1K-PNG/Plaster001_1K-PNG_Roughness.png" id="4_e0oux"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tnb5y"]
+albedo_texture = ExtResource("1_0tt0p")
+roughness_texture = ExtResource("4_e0oux")
+normal_enabled = true
+normal_scale = 5.0
+normal_texture = ExtResource("3_33xdh")
+heightmap_enabled = true
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_texture = ExtResource("2_e1vda")
+uv1_scale = Vector3(1.975, 1, 1)
+
+[node name="Wall Plaster" type="Node3D"]
+
+[node name="Model" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.1, 0, 1.46546, 0)
+material_override = SubResource("StandardMaterial3D_tnb5y")
+use_collision = true
+size = Vector3(5, 3, 1)

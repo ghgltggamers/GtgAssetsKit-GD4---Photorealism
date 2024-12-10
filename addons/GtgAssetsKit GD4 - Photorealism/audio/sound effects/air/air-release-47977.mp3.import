@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d32wxaawvxvks"
+path="res://.godot/imported/air-release-47977.mp3-7c1a07e4e86dc1408a07de9ecfee9e6e.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/air/air-release-47977.mp3"
+dest_files=["res://.godot/imported/air-release-47977.mp3-7c1a07e4e86dc1408a07de9ecfee9e6e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,49 @@
+[gd_scene load_steps=2 format=3 uid="uid://c3od6n3s1ucve"]
+
+[ext_resource type="Material" uid="uid://bq6rqd7pmjvff" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/wall painted.tres" id="1_m4jnj"]
+
+[node name="double window wall" type="Node3D"]
+
+[node name="double door wall" type="Node3D" parent="."]
+
+[node name="Door wall" type="Node3D" parent="double door wall"]
+
+[node name="house wall" type="Node3D" parent="double door wall/Door wall"]
+
+[node name="Model2" type="CSGBox3D" parent="double door wall/Door wall/house wall"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.1, -2, 1.46546, 0)
+material_override = ExtResource("1_m4jnj")
+use_collision = true
+size = Vector3(1, 3, 1)
+
+[node name="Model5" type="CSGBox3D" parent="double door wall/Door wall/house wall"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.1, 0, 1.46546, 0)
+material_override = ExtResource("1_m4jnj")
+use_collision = true
+size = Vector3(1, 3, 1)
+
+[node name="Model6" type="CSGBox3D" parent="double door wall/Door wall/house wall"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.1, -1, 2.46546, 0)
+material_override = ExtResource("1_m4jnj")
+use_collision = true
+
+[node name="Model3" type="CSGBox3D" parent="double door wall/Door wall/house wall"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.1, 2, 1.46546, 0)
+material_override = ExtResource("1_m4jnj")
+use_collision = true
+size = Vector3(1, 3, 1)
+
+[node name="Model4" type="CSGBox3D" parent="double door wall/Door wall/house wall"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.1, 1, 2.46546, 0)
+material_override = ExtResource("1_m4jnj")
+use_collision = true
+
+[node name="Model7" type="CSGBox3D" parent="double door wall/Door wall/house wall"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.1, -1, 0.46546, 0)
+material_override = ExtResource("1_m4jnj")
+use_collision = true
+
+[node name="Model8" type="CSGBox3D" parent="double door wall/Door wall/house wall"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.1, 1, 0.46546, 0)
+material_override = ExtResource("1_m4jnj")
+use_collision = true

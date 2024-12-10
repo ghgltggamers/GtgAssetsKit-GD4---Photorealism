@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cc3wp0l3xmwfo"
+path="res://.godot/imported/laser-gun-174976.mp3-ba376a39076789db8fb3d0466b62202e.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/gun/laser-gun-174976.mp3"
+dest_files=["res://.godot/imported/laser-gun-174976.mp3-ba376a39076789db8fb3d0466b62202e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

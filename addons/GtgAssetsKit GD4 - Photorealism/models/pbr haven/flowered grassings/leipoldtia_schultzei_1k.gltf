@@ -1,0 +1,330 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v4.2.70",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "leipoldtia_schultzei_Large_LOD0",
+      "scale": [
+        0.4548720121383667,
+        0.454872190952301,
+        0.4548720121383667
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "leipoldtia_schultzei_Medium_LOD0",
+      "scale": [
+        0.4548720121383667,
+        0.454872190952301,
+        0.4548720121383667
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "leipoldtia_schultzei_Small_LOD0",
+      "scale": [
+        0.4548720121383667,
+        0.454872190952301,
+        0.4548720121383667
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "leipoldtia_schultzei",
+      "normalTexture": {
+        "index": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0,
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Plane.053",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Plane.057",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Plane.056",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 9,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/jpeg",
+      "name": "leipoldtia_schultzei_nor_gl",
+      "uri": "textures/leipoldtia_schultzei_nor_gl_1k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "leipoldtia_schultzei_diff",
+      "uri": "textures/leipoldtia_schultzei_diff_1k.jpg"
+    },
+    {
+      "mimeType": "image/jpeg",
+      "name": "leipoldtia_schultzei_rough",
+      "uri": "textures/leipoldtia_schultzei_arm_1k.jpg"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 149348,
+      "max": [
+        0.803668737411499,
+        0.6369138956069946,
+        0.7349052429199219
+      ],
+      "min": [
+        -1.2506884336471558,
+        -0.03939099609851837,
+        -1.0453417301177979
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 149348,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 149348,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 686976,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 66836,
+      "max": [
+        2.315826177597046,
+        0.32632607221603394,
+        0.4896472692489624
+      ],
+      "min": [
+        1.0544123649597168,
+        -0.06020648032426834,
+        -0.9269972443580627
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 66836,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 66836,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5125,
+      "count": 307776,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 28331,
+      "max": [
+        3.8315184116363525,
+        0.4243912696838379,
+        0.4314453601837158
+      ],
+      "min": [
+        2.5273499488830566,
+        -0.01652500033378601,
+        -0.9077935814857483
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 28331,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 28331,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5123,
+      "count": 161760,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1792176,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1792176,
+      "byteOffset": 1792176,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1194784,
+      "byteOffset": 3584352,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2747904,
+      "byteOffset": 4779136,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 802032,
+      "byteOffset": 7527040,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 802032,
+      "byteOffset": 8329072,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 534688,
+      "byteOffset": 9131104,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1231104,
+      "byteOffset": 9665792,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 339972,
+      "byteOffset": 10896896,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 339972,
+      "byteOffset": 11236868,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 226648,
+      "byteOffset": 11576840,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 323520,
+      "byteOffset": 11803488,
+      "target": 34963
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 12127008,
+      "uri": "leipoldtia_schultzei.bin"
+    }
+  ]
+}

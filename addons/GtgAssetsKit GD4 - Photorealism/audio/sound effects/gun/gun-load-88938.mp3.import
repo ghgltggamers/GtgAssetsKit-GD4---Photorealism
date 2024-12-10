@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://clmsnc1cqc3a0"
+path="res://.godot/imported/gun-load-88938.mp3-bfb870818ae64e20506d01b7440886fa.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/gun/gun-load-88938.mp3"
+dest_files=["res://.godot/imported/gun-load-88938.mp3-bfb870818ae64e20506d01b7440886fa.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dqvyovi7r2xqx"
+path="res://.godot/imported/footsteps-in-wet-coarse-sand-63970.mp3-493baa786f7e3bcfed6634b82c17439a.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/foot steps/footsteps-in-wet-coarse-sand-63970.mp3"
+dest_files=["res://.godot/imported/footsteps-in-wet-coarse-sand-63970.mp3-493baa786f7e3bcfed6634b82c17439a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

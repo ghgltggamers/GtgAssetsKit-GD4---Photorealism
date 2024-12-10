@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://baiuf1oo47hnt"
+path="res://.godot/imported/wall-air-conditioner-43901.mp3-5a4a788436c5cb2199aa22340c51e5ce.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/air/wall-air-conditioner-43901.mp3"
+dest_files=["res://.godot/imported/wall-air-conditioner-43901.mp3-5a4a788436c5cb2199aa22340c51e5ce.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

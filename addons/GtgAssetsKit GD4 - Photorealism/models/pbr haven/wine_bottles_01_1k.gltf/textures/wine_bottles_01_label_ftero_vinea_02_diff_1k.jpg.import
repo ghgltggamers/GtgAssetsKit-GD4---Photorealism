@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://d2xeb83mugluo"
+path.s3tc="res://.godot/imported/wine_bottles_01_label_ftero_vinea_02_diff_1k.jpg-55a19249c406892862a65dd66baff21c.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/models/pbr haven/wine_bottles_01_1k.gltf/textures/wine_bottles_01_label_ftero_vinea_02_diff_1k.jpg"
+dest_files=["res://.godot/imported/wine_bottles_01_label_ftero_vinea_02_diff_1k.jpg-55a19249c406892862a65dd66baff21c.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0

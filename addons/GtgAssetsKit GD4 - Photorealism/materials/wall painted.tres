@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://bq6rqd7pmjvff"]
+
+[ext_resource type="Texture2D" uid="uid://bkih33ogon4ir" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Plaster001_1K-PNG/Plaster001_1K-PNG_Displacement.png" id="1_33pcn"]
+[ext_resource type="Texture2D" uid="uid://r81ydye57j3t" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Plaster001_1K-PNG/Plaster001_1K-PNG_NormalGL.png" id="2_eso6x"]
+
+[resource]
+roughness = 0.55
+normal_enabled = true
+normal_scale = 0.5
+normal_texture = ExtResource("2_eso6x")
+heightmap_enabled = true
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_texture = ExtResource("1_33pcn")
+uv1_scale = Vector3(1.975, 1, 1)

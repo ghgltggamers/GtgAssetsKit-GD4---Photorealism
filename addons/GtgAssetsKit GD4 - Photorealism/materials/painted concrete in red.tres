@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="uid://djjnny71wx0am"]
+
+[ext_resource type="Texture2D" uid="uid://40aevsqkox2f" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/PaintedPlaster001_1K-PNG/PaintedPlaster001_1K-PNG_Color.png" id="1_raxi2"]
+[ext_resource type="Texture2D" uid="uid://12vyn7jua4mu" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/PaintedPlaster001_1K-PNG/PaintedPlaster001_1K-PNG_Displacement.png" id="2_xtvfs"]
+[ext_resource type="Texture2D" uid="uid://dkgum4586l6yb" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/PaintedPlaster001_1K-PNG/PaintedPlaster001_1K-PNG_NormalGL.png" id="3_d4au7"]
+[ext_resource type="Texture2D" uid="uid://cna7bjx4t0rwn" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/PaintedPlaster001_1K-PNG/PaintedPlaster001_1K-PNG_Roughness.png" id="4_jbkfp"]
+
+[resource]
+albedo_texture = ExtResource("1_raxi2")
+roughness_texture = ExtResource("4_jbkfp")
+normal_enabled = true
+normal_scale = 5.0
+normal_texture = ExtResource("3_d4au7")
+heightmap_enabled = true
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_texture = ExtResource("2_xtvfs")

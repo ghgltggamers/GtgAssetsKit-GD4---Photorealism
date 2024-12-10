@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dn20lmo5qnyu6"
+path="res://.godot/imported/machine-gun-129929.mp3-7f6294d1819a5dc79afc9081c978428f.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/gun/machine-gun-129929.mp3"
+dest_files=["res://.godot/imported/machine-gun-129929.mp3-7f6294d1819a5dc79afc9081c978428f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

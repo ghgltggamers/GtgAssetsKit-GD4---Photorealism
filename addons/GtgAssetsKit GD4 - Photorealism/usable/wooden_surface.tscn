@@ -1,0 +1,28 @@
+[gd_scene load_steps=6 format=3 uid="uid://dhv43ng6b07gb"]
+
+[ext_resource type="Texture2D" uid="uid://v0o85cgfbp65" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Wood092_1K-PNG/Wood092_1K-PNG_Color.png" id="1_l7d3r"]
+[ext_resource type="Texture2D" uid="uid://cv0pe1lgjgn5j" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Wood092_1K-PNG/Wood092_1K-PNG_Displacement.png" id="2_umoyp"]
+[ext_resource type="Texture2D" uid="uid://47fqnhv2xbos" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Wood092_1K-PNG/Wood092_1K-PNG_NormalGL.png" id="3_jx07b"]
+[ext_resource type="Texture2D" uid="uid://lyk7rhuyctcm" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Wood092_1K-PNG/Wood092_1K-PNG_Roughness.png" id="4_7phm4"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qmvva"]
+albedo_texture = ExtResource("1_l7d3r")
+roughness_texture = ExtResource("4_7phm4")
+normal_enabled = true
+normal_scale = 5.0
+normal_texture = ExtResource("3_jx07b")
+heightmap_enabled = true
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_texture = ExtResource("2_umoyp")
+uv1_scale = Vector3(2, 2, 2)
+
+[node name="Wooden Surface" type="Node3D"]
+
+[node name="Surface" type="Node3D" parent="."]
+
+[node name="Model" type="CSGBox3D" parent="Surface"]
+transform = Transform3D(1, 0, 0, 0, -0.07, 0, 0, 0, 1, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_qmvva")
+size = Vector3(5, 1, 5)

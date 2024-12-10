@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://cgpkmn4fl6r8d"]
+
+[ext_resource type="Material" uid="uid://bq6rqd7pmjvff" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/wall painted.tres" id="1_xcyh1"]
+
+[node name="house wall" type="Node3D"]
+
+[node name="Model" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.1, 0, 1.46546, 0)
+material_override = ExtResource("1_xcyh1")
+use_collision = true
+size = Vector3(5, 3, 1)

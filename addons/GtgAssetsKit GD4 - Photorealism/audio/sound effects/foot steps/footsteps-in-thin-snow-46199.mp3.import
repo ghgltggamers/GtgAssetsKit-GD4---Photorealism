@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dccbrwo78r7bm"
+path="res://.godot/imported/footsteps-in-thin-snow-46199.mp3-f3b3ce8e7a12d84c567320809e978054.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/foot steps/footsteps-in-thin-snow-46199.mp3"
+dest_files=["res://.godot/imported/footsteps-in-thin-snow-46199.mp3-f3b3ce8e7a12d84c567320809e978054.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

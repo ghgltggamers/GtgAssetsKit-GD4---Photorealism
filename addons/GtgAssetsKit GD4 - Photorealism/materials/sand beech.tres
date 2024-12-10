@@ -1,0 +1,22 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="uid://igwn2royh7cl"]
+
+[ext_resource type="Texture2D" uid="uid://c0ykcske1cnda" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Ground080_1K-PNG/Ground080_1K-PNG_Color.png" id="1_cbi77"]
+[ext_resource type="Texture2D" uid="uid://dhkcmbd55nvbw" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Ground080_1K-PNG/Ground080_1K-PNG_AmbientOcclusion.png" id="2_am44a"]
+[ext_resource type="Texture2D" uid="uid://b3txr7py0bbb1" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Ground080_1K-PNG/Ground080_1K-PNG_Displacement.png" id="3_fqgtw"]
+[ext_resource type="Texture2D" uid="uid://br1vwij82gc1e" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Ground080_1K-PNG/Ground080_1K-PNG_NormalGL.png" id="4_hqrbu"]
+[ext_resource type="Texture2D" uid="uid://cxe2legw1b7r4" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Ground080_1K-PNG/Ground080_1K-PNG_Roughness.png" id="5_a8kxc"]
+
+[resource]
+albedo_texture = ExtResource("1_cbi77")
+roughness_texture = ExtResource("5_a8kxc")
+normal_enabled = true
+normal_scale = 5.0
+normal_texture = ExtResource("4_hqrbu")
+ao_enabled = true
+ao_light_affect = 1.0
+ao_texture = ExtResource("2_am44a")
+heightmap_enabled = true
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_texture = ExtResource("3_fqgtw")

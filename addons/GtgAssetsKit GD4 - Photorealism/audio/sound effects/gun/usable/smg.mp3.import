@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://btkvw1a0el643"
+path="res://.godot/imported/smg.mp3-f96df604691a4c70aabacfec60cfdcc4.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/gun/usable/smg.mp3"
+dest_files=["res://.godot/imported/smg.mp3-f96df604691a4c70aabacfec60cfdcc4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

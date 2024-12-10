@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://berlgawcdih03"
+path="res://.godot/imported/air-traffic-control-33498.mp3-9d3212a5d58d89efc7c7befb2afe8a91.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/air/air-traffic-control-33498.mp3"
+dest_files=["res://.godot/imported/air-traffic-control-33498.mp3-9d3212a5d58d89efc7c7befb2afe8a91.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

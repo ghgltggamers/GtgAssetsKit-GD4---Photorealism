@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dpgd0vl1nmae6"
+path="res://.godot/imported/gtg Nautical Night.wav-293c1821413c4daf06d1b3a54dca2621.sample"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/bgm/gtg Nautical Night.wav"
+dest_files=["res://.godot/imported/gtg Nautical Night.wav-293c1821413c4daf06d1b3a54dca2621.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

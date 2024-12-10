@@ -1,0 +1,21 @@
+[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="uid://ca4rv66leiaqr"]
+
+[ext_resource type="Texture2D" uid="uid://0iogr8upgbkw" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Carpet016_1K-PNG/Carpet016_1K-PNG_Color.png" id="1_oe71p"]
+[ext_resource type="Texture2D" uid="uid://5nh4smtjbd4d" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Carpet016_1K-PNG/Carpet016_1K-PNG_AmbientOcclusion.png" id="2_w2tfp"]
+[ext_resource type="Texture2D" uid="uid://bfbe2dg1h1alv" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Carpet016_1K-PNG/Carpet016_1K-PNG_Displacement.png" id="3_np6wx"]
+[ext_resource type="Texture2D" uid="uid://cgqym5e6sibn" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Carpet016_1K-PNG/Carpet016_1K-PNG_NormalGL.png" id="4_3ttbj"]
+[ext_resource type="Texture2D" uid="uid://dxcv73wp62ra0" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Carpet016_1K-PNG/Carpet016_1K-PNG_Roughness.png" id="5_qeqq7"]
+
+[resource]
+albedo_texture = ExtResource("1_oe71p")
+roughness_texture = ExtResource("5_qeqq7")
+normal_enabled = true
+normal_scale = 5.0
+normal_texture = ExtResource("4_3ttbj")
+ao_enabled = true
+ao_texture = ExtResource("2_w2tfp")
+heightmap_enabled = true
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_texture = ExtResource("3_np6wx")

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bhf7qhw47bmqw"
+path="res://.godot/imported/air-raid-siren-sound-effect-241383.mp3-19fec5d6f44775e7e167537723ff9166.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/air/air-raid-siren-sound-effect-241383.mp3"
+dest_files=["res://.godot/imported/air-raid-siren-sound-effect-241383.mp3-19fec5d6f44775e7e167537723ff9166.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

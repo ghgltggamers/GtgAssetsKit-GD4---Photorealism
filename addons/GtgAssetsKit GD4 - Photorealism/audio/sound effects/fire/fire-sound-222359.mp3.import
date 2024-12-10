@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://j6odrrrr2tb3"
+path="res://.godot/imported/fire-sound-222359.mp3-ebe811e235efbf2cd9c6c256a20d4c4f.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/fire/fire-sound-222359.mp3"
+dest_files=["res://.godot/imported/fire-sound-222359.mp3-ebe811e235efbf2cd9c6c256a20d4c4f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

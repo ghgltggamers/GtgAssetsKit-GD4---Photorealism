@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dj0b2ns6r4yys"
+path="res://.godot/imported/japanese-katana-knife-gliding-through-the-air-sword-cut-the-air-185028.mp3-f8a7f9e84749c6c7f5bd2b6e1977361d.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/air/japanese-katana-knife-gliding-through-the-air-sword-cut-the-air-185028.mp3"
+dest_files=["res://.godot/imported/japanese-katana-knife-gliding-through-the-air-sword-cut-the-air-185028.mp3-f8a7f9e84749c6c7f5bd2b6e1977361d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

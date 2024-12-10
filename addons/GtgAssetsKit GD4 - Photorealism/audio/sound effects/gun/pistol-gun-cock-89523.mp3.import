@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c2pefqyult1ld"
+path="res://.godot/imported/pistol-gun-cock-89523.mp3-c94a074d4de8c1c651a0749e2b852c82.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/gun/pistol-gun-cock-89523.mp3"
+dest_files=["res://.godot/imported/pistol-gun-cock-89523.mp3-c94a074d4de8c1c651a0749e2b852c82.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

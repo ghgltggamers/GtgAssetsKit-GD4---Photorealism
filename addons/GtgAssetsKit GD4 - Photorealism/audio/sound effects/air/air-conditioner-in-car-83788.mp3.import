@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bha3oyiue3ri5"
+path="res://.godot/imported/air-conditioner-in-car-83788.mp3-ce1ea916c747f4f4029853d44b7e1cda.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/air/air-conditioner-in-car-83788.mp3"
+dest_files=["res://.godot/imported/air-conditioner-in-car-83788.mp3-ce1ea916c747f4f4029853d44b7e1cda.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

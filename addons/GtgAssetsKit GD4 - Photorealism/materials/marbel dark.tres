@@ -1,0 +1,19 @@
+[gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="uid://vru6f4snyvws"]
+
+[ext_resource type="Texture2D" uid="uid://o24iqjdqlk1j" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Marble016_1K-PNG/Marble016_1K-PNG_Color.png" id="1_q3whb"]
+[ext_resource type="Texture2D" uid="uid://30idlfj656yu" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Marble016_1K-PNG/Marble016_1K-PNG_Displacement.png" id="2_i3wve"]
+[ext_resource type="Texture2D" uid="uid://buw0fu37bkral" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Marble016_1K-PNG/Marble016_1K-PNG_NormalGL.png" id="3_o6njm"]
+[ext_resource type="Texture2D" uid="uid://bnmmkkqqrdjil" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/raw/Marble016_1K-PNG/Marble016_1K-PNG_Roughness.png" id="4_rjhce"]
+
+[resource]
+albedo_texture = ExtResource("1_q3whb")
+roughness_texture = ExtResource("4_rjhce")
+normal_enabled = true
+normal_scale = 5.0
+normal_texture = ExtResource("3_o6njm")
+ao_light_affect = 1.0
+heightmap_enabled = true
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_texture = ExtResource("2_i3wve")

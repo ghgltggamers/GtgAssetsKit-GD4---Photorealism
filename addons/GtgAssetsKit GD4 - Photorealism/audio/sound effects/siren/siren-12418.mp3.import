@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cra8671lu2xgc"
+path="res://.godot/imported/siren-12418.mp3-f5bae099585798d96208f1f4569051b6.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/siren/siren-12418.mp3"
+dest_files=["res://.godot/imported/siren-12418.mp3-f5bae099585798d96208f1f4569051b6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

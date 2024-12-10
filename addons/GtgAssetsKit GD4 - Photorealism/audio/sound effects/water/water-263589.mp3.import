@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://47ty1u5txxsn"
+path="res://.godot/imported/water-263589.mp3-55813d55c24c41fb580bdef73f7ab7d7.mp3str"
+
+[deps]
+
+source_file="res://addons/GtgAssetsKit GD4 - Photorealism/audio/sound effects/water/water-263589.mp3"
+dest_files=["res://.godot/imported/water-263589.mp3-55813d55c24c41fb580bdef73f7ab7d7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

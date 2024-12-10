@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cyf68l2ylnr2l"]
+
+[ext_resource type="Material" uid="uid://c3uy31j783lg7" path="res://addons/GtgAssetsKit GD4 - Photorealism/materials/bark.tres" id="1_h85kx"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_xlcjc"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+material_override = ExtResource("1_h85kx")
+mesh = SubResource("CylinderMesh_xlcjc")
